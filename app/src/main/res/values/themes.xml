@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Estilo base de la aplicación -->
+    <style name="Base.Theme.Interfaz_principal2" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Personaliza tu tema base aquí si es necesario -->
+    </style>
+    <style name="BotonEstilo" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/Azul</item>
+    </style>
+    <style name="CardViewEstilo" parent="Widget.MaterialComponents.CardView">
+        <item name="android:background">@color/Azul</item>
+        <!-- Agrega otras propiedades de estilo que desees para la CardView -->
+    </style>
+
+
+    <!-- Estilo de la aplicación -->
+    <style name="Theme.Interfaz_principal2" parent="Base.Theme.Interfaz_principal2" />
+</resources>
